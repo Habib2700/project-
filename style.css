@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.all-content{
+    background: white;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 30px;
+}
+html::-webkit-scrollbar{
+    width: 30px;
+}
+/* navbar */
+#navbar{
+    background-color: #b2744c;
+    width: 100%;
+    height: 50px;
+     display: flex;
+   justify-content: space-between; 
+   transition: 0.5s; 
+   z-index: 1;  
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: small;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+  /* navbar */
+
+  /* home content */
+#HOME{
+    width: 100%;
+    height: 90vh;
+    background-image: url(img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+  padding-top: 210px;
+  margin-left: 56px;
+}
+.content h1{
+  font-size: 70px;
+  color: white;
+}
+.content p{
+  margin-top: 10px;
+  color: white;
+}
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #a06642;
+  color: white;
+}
+/* home content */
+
+/* about */
+#ABOUT{
+    width: 100%;
+    height: 70vh;
+    background: white;
+    margin-top: 150px;
+  }
+
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #ABOUT .card{
+    border-radius: 10px;
+  }
+  #ABOUT .card img{
+    border-radius: 10px;
+  }
+  #ABOUT h2{
+     font-size: 50px;
+     margin-left: 50px; 
+  }
+  #ABOUT h6{
+    margin-left: 50px;
+  }
+    #ABOUT p{
+      font-size: 15px;
+      margin-left: 50px;
+    }
+#ABOUT img{
+    margin-left: 50px;
+}
+
+  
+  /* about */
+
+  
+/* menu */
+.menu{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2{
+  margin-top: 20px;
+}
+.menu .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+  color: #b2744c;
+}
+.menu h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p{
+  font-size: 16px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+.menu p span{
+  float: right;
+  cursor: pointer;
+}
+.g{
+    margin-top: 150px;
+}
+.g p{
+    margin: 18px;
+}
+/* menu */
+
+/* review */
+#REVIEW{
+    width: 100%;
+    height: 70vh;
+    background: rgb(136, 97, 45);
+    margin-top: 50px;
+    }
+    #REVIEW h1{ 
+        padding-top: 70px;
+        text-align: center;
+        color: white;
+    }
+    #REVIEW h6{
+    text-align: center;
+    padding-bottom: 20px;
+    color:white;
+    }
+    #REVIEW p{
+        color: white;
+    }
+/* review*/
+/* blog */ 
+#BLOG{
+  width: 100%;
+  height: 80vh;
+  background: white;
+  margin-top: 150px;
+  padding: 55px;
+}
+#BLOG h6{ 
+  text-align: center; 
+  margin-bottom: 50px;  
+} 
+#button{  
+  text-align: center; 
+  width: 110px;
+  height: 36px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 15px;
+  border: 5px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#button:hover{
+  background: #a06642;
+  color: white;
+}
+#BLOG h5{
+  margin-top: 10px;
+}
+/* blog */ 
+/* footer */    
+#PAGES{
+  background-image: url(img/footer-bg.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  width: 100%;  
+  height: 60vh;
+  margin-top: 150px;    
+}
+/* footer */  
